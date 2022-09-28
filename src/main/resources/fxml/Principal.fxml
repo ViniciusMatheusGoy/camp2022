@@ -101,11 +101,6 @@
                   </TableView>
                   <HBox alignment="CENTER" prefHeight="33.0" prefWidth="560.0" spacing="20.0">
                      <children>
-                        <Button fx:id="btnSalvarJogos" mnemonicParsing="false" onAction="#btnSalvarJogosClick" text="Salvar">
-                           <font>
-                              <Font name="System Bold" size="12.0" />
-                           </font>
-                        </Button>
                         <Button fx:id="btnFecharJogos" mnemonicParsing="false" onAction="#btnFecharJogosClick" text="Fechar">
                            <font>
                               <Font name="System Bold" size="12.0" />
