@@ -88,12 +88,7 @@ public class PrincipalController implements Initializable {
     @FXML
     private Button btnSalvarJogos;
 
-    @FXML
-    private void btnSalvarJogosClick(Event event) {
-        timeSel = tblvwClassificacao.getSelectionModel().getSelectedItem();
-        dados.gravarJogosJSON(timeSel);
-
-    }
+    
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
